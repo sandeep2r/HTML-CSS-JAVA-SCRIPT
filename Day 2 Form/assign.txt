@@ -1,0 +1,27 @@
+08th December 2022
+********************************************************************
+Task list for practice
+
+1.	Create a page that has a hyperlink with a text stating "Open Window".
+When this link is clicked, a new browser window should get opened up.
+
+2.	Create a page to collect the following information from the user: -
+	2.1	Name 	=>	This will be a text box
+	2.2	Task Name 	=>	This will be a text box
+	2.3	Task Description	=>	textarea
+	2.4	Task Assigned To	=>	drop down 
+		This will display list of names, so please put dummy names
+		in the drop down.
+	2.5	Days Allocated To
+		Complete Task	=>	drop down
+		This will display numbers to be selected by the user.
+		These numbers represents the number of days, the user is 
+		allocating to solve the task.
+		Values will be as follows: -
+			2 Days
+			5 Days
+			7 Days
+			10 Days
+	2.6	Task Validation Needed	=>	radio button
+						yes / no
+Observe the changes when you use the "get" and "post" methods in the "form" tag.

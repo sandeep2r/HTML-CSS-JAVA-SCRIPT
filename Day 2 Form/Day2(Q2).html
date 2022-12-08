@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Day 2 - Assignment Question 2
+    </title>
+</head>
+
+<body>
+    <center>
+    <h1>
+        Application Form
+    </h1>
+    
+    <form name="form1" method = "post" action="day1.html">
+        <!--method get -->
+        <!--file:///D:/web%20technologies%20classes/Day%202/day1.html?name=sandeep&task+name=assignment&task+description=sldjflsjdf&validate=on&btn1=submit-->
+        <!--method post-->
+        <!--file:///D:/web%20technologies%20classes/Day%202/day1.html-->
+        <!--2.1	Name 	=>	This will be a text box-->
+        <table border="2" cellpadding = "15">
+            <tr>
+                <td><b>Name :</b></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <!--2.2	Task Name 	=>	This will be a text box-->
+            <tr>
+                <td><b>Task Name :</b></td>
+                <td><input type="text" name="task name"></td>
+            </tr>
+            <!--2.3	Task Description	=>	textarea-->
+            <tr>
+                <td><b>Task Description:</b></td>
+                <td><textarea rows = "5" name="task description"></textarea></td>
+            </tr>
+            <!--2.4	Task Assigned To	=>	drop down-->
+            <tr>
+                <td><b>Task Assigned to :</b></td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                        <option>Sandeep Pawar</option>
+                        <option>Rakesh Suthar</option>
+                        <option>Pratik Parhad</option>
+                        <option>Faltu log</option>
+                        <option>Faltu log max</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Complete Task :</b></td>
+                <td>
+                    <select>
+                        <option>--select--</option>
+                        <option>1 day</option>
+                        <option>2 day</option>
+                        <option>3 day</option>
+                        <option>4 day</option>
+                        <option>5 day</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Task Validation :</b>
+                </td>
+                <td>
+                    <input type="radio" name = "validate" > Yes </input>
+                    <input type="radio" name = "validate"> No </input>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table cellpadding = "15">
+            <tr>
+                <td ><input type="submit" value="submit" name="btn1" id="btn1"></input></td>
+                <td><input type="reset" value="reset data" value="btn1" id="btn1"></td>
+            </tr>
+        </table>
+    </form>
+    </center>
+   
+</body>
+
+</html>
