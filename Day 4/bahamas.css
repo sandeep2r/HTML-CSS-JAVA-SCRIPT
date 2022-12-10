@@ -1,0 +1,18 @@
+.flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+
+
+.bahamas {
+    background: linear-gradient(#00778B 33%, #fef200 33%, #fef200 66%, #00778B 0);
+}
+
+.bahamas_triangle {
+    position: absolute;
+    border: 100px solid transparent;
+    border-left-color: #231f20;
+}
